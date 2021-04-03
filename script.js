@@ -1,23 +1,68 @@
 
 "use strict";
 
+
+
+
+//Урок 7. Git 
+
+// Працюючи з файлом - 
+
+//  git add -A - добавити весь файл для вигрузки
+// git push original main  - вигрузити файли в репозиторій в папку (main)
+// git status -  перевірка змін в файлах
+// git commit -a -m"Назва комміта" - 
+
+// Если вы хотите клонировать ветку master, то напечатайте git clone и вставьте ссылку, как это показано ниже:
+
+// git clone https://github.com/JamesOkunlade/old-apple.git
+
+// Для клонирования определенной ветки репозитория сделайте следующее:
+
+// git clone https://github.com/JamesOkunlade/old-apple.git -b branch-name
+
+// Если ветка уже создана:
+
+// git checkout branch-name
+
+// Если вы создаете новую ветку опций:
+
+// git checkout -b branch-name
+
+// git add -A  Захват текущего состояния файлов
+
+// Сообщение в коммите должно пояснить специфику сохраняемых снимков. Например:
+
+// git add index.html
+
+// git commit -m ‘создание кнопки формы опции’
+
+// Две команды можно объединить через оператор&&:
+
+// git add index.html && git commit -m ‘создание html структуры футера’
+
+// git push отправляет локальный репозиторий на сервер, доступный другим пользователям.
+
+// git push -u origin branch-name
+
+
 // Урок 6. Операторы в JS
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
-    // ++incr;
-    // --decr;
+//     // ++incr;
+//     // --decr;
 
-console.log (incr++);
-console.log(decr--);
+// console.log (incr++);
+// console.log(decr--);
 
-const isChecked = true,
-      isClosed = true;  
+// const isChecked = true,
+//       isClosed = true;  
 
-console.log(isChecked && !isClosed);
+// console.log(isChecked && !isClosed);
 
-console.log( 2 + 2 * 2 === 8);
+// console.log( 2 + 2 * 2 === 8);
 
 
 
