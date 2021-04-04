@@ -24,5 +24,5 @@ console.log(a10);
 const height = 23;
 const width = 10;
 let s = height * width;
-console.log(s);
+
 console.log(height * width);
