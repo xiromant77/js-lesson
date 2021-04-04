@@ -26,3 +26,8 @@ const width = 10;
 let s = height * width;
 
 console.log(height * width);
+
+
+let arr = [];
+for (arr) ++i);
+console.log(arr[2]);
