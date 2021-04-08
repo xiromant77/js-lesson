@@ -2,32 +2,74 @@
 "use strict";
 
 
+
+
+
+//Урок 13. Функции, стрелочные ф-ции (ES6)
+let num = 20;
+function showFirstMessage(text) {
+    console.log(text);
+    num = 10;
+    console.log(num)
+
+}
+
+showFirstMessage("Hello")
+
+function calc(a, b) {
+    return  (a + b);
+}
+
+console.log(calc(4, 3));
+console.log(calc(5, 2));
+console.log(calc(5, 7));
+
+function ret() {
+    let num = 50;
+    return num;
+}
+
+const anotherNum = (ret);
+console.log(anotherNum);
+
+// another kind of function
+const logger = function() {
+    console.log("Hello")
+};
+
+logger();
+
+////////////////////////////
+
+const calcul = (a, b) => { return a + b; }
+
+
 // Урок 11 Циклы
 
-let num = 50;
+// let num = 50;
 
-// while (num <= 55) {
+// // while (num <= 55) {
+// //     console.log(num);
+// //     num++;
+// // }
+
+// do {
 //     console.log(num);
 //     num++;
 // }
 
-do {
-    console.log(num);
-    num++;
-}
+// while (num <= 55);
 
-while (num <= 55);
+// for (let i = 1; i < 8;i++) {
+//     console.log(i);
+// }
 
-for (let i = 1; i < 8;i++) {
-    console.log(i);
-}
+// for (let i = 1; i < 10; i++) {
+//     if (i === 6) {
+//         continue;
+//     }
+//     console.log(i);
 
-for (let i = 1; i < 10; i++) {
-    if (i === 6) {
-        continue;
-    }
-    console.log(i);
-}
 
 
 

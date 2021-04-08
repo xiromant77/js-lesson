@@ -139,8 +139,16 @@ console.log (area);
 
 
  
+let test = false;
+if (test == true) {
+    console.log("Correct");
+} else {
+    console.log("Inncorrect");
+}
 
+let str = [0, 1, 2, 3 ];
 
+console.log(str[3]+ str[0]);
 
 
 
